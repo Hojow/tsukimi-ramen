@@ -1,0 +1,491 @@
+/* =============================================
+   TSUKIMI RAMEN — i18n.js
+   Language: EN / NL / JA
+   ============================================= */
+
+(function () {
+  var t = {
+    en: {
+      /* Nav */
+      'nav.home': 'Home',
+      'nav.menu': 'Menu',
+      'nav.about': 'About',
+      'nav.reserve': 'Reserve',
+
+      /* Hero */
+      'hero.tagline': 'Authentic Japanese ramen above the busy streets of Damrak.',
+      'hero.sub': 'Rich broths, fresh noodles, and a quiet spot upstairs in central Amsterdam.',
+      'hero.address': 'Damrak 45 · Floor 1<br>Amsterdam',
+      'hero.reserveBtn': 'Reserve a table',
+      'hero.viewMenu': 'View Menu',
+      'hero.hours': 'Open daily · 09:00 – 23:00',
+
+      /* Index – Menu preview */
+      'menuPreview.label': "A taste of what's upstairs",
+      'menuPreview.heading': 'Fresh, simple <em>ramen.</em>',
+      'card.tonkotsu.name': 'Tonkotsu Ramen',
+      'card.tonkotsu.desc': 'Rich pork bone broth with noodles, chashu pork, bok choy and soft-boiled egg',
+      'card.veg.name': 'Vegetable Miso Ramen',
+      'card.veg.desc': 'Vegetarian-friendly ramen with miso, bok choy, corn, broccoli, bamboo shoots and seaweed',
+      'card.special.name': 'Tsukimi Ramen Special',
+      'card.special.desc': 'Rich pork bone broth with spareribs, bok choy, bamboo shoots, narutomaki and soft-boiled egg',
+      'menuPreview.cta': 'Our Ramen \u2192',
+
+      /* Index – Concept */
+      'concept.label': 'Our story',
+      'concept.text': 'Located just above the busy streets of Damrak, Tsukimi Ramen offers a quiet escape in the heart of Amsterdam. Step upstairs and enjoy a warm, casual ramen experience away from the crowds.',
+
+      /* Index – Reserve CTA */
+      'reserve.label': 'Reservations',
+      'reserve.heading': '<em>Reserve your</em> table',
+      'reserve.sub': 'Skip the wait and secure your spot upstairs.',
+      'reserve.btn': 'Reserve now',
+      'reserve.note': "We'll integrate online reservations soon.",
+
+      /* Index – Location */
+      'location.label': 'Find us',
+      'location.heading': "We're <em>upstairs</em>",
+      'location.desc': 'Located above At James on Damrak 45, floor 1.<br>Step upstairs and discover Tsukimi Ramen.',
+      'location.addrKey': 'Address',
+      'location.addrVal': 'Damrak 45, Floor 1, Amsterdam',
+      'location.hoursKey': 'Hours',
+      'location.hoursVal': '09:00 \u2013 23:00 daily',
+      'location.phoneKey': 'Phone',
+      'location.emailKey': 'Email',
+      'location.note': "<strong>Look for At James on Damrak 45</strong> \u2014 we're on the first floor. Take the stairs up and you'll find us.",
+
+      /* Social */
+      'social.label': 'Follow us',
+      'social.heading': 'Stay up to date',
+
+      /* Footer */
+      'footer.tagline': 'Ramen upstairs in the heart of Amsterdam',
+      'footer.menu': 'Menu',
+      'footer.about': 'About',
+
+      /* Menu page */
+      'menu.pageTitle': 'Our Menu',
+      'menu.subtitle': 'Fresh ramen upstairs in the heart of Amsterdam',
+      'menu.ramenCat': 'Ramen',
+      'menu.sidesCat': 'Side Dishes',
+      'menu.friedCat': 'Fried Dishes',
+      'menu.dessertCat': 'Desserts',
+      'menu.toppingsCat': 'Extra Toppings',
+      'menu.saucesCat': 'Sauces',
+
+      /* Menu – Ramen */
+      'ramen.intro': 'We make our broths fresh every day — slow-cooked for hours so every bowl is packed with flavour. Pick your favourite and enjoy it upstairs, away from the busy streets below.',
+      'ramen.special.name': 'Tsukimi Ramen Special',
+      'ramen.special.desc': 'Rich pork bone broth with noodles, spareribs, bok choy, bamboo shoots, narutomaki, a soft-boiled seasoned egg, seaweed, white sesame seeds, and scallions',
+      'ramen.tonkotsu.name': 'Tonkotsu Ramen',
+      'ramen.tonkotsu.desc': 'Rich pork bone broth with noodles, chashu pork, bok choy, bamboo shoots, narutomaki, a soft-boiled seasoned egg, seaweed, white sesame seeds, and scallions',
+      'ramen.paitan.name': 'Paitan Chicken Ramen',
+      'ramen.paitan.desc': 'Paitan chicken broth with noodles, chicken fillet, bok choy, bamboo shoots, narutomaki, a soft-boiled seasoned egg, and scallions',
+      'ramen.seafood.name': 'Seafood Ramen',
+      'ramen.seafood.desc': 'Choice between paitan chicken or rich pork broth with noodles, diverse seafoods, bok choy, bamboo shoots, narutomaki, a soft-boiled seasoned egg, bonito flakes, and scallions',
+      'ramen.vegmiso.name': 'Vegetable Miso Ramen',
+      'ramen.vegmiso.desc': 'Vegetarian-friendly ramen with miso, noodles, bok choy, corn, broccoli, bamboo shoots, seaweed, and scallions',
+
+      /* Menu – Sides */
+      'sides.seaweed': 'Seasoned seaweed salad',
+      'sides.edamame': 'Edamame',
+      'sides.kimchi': 'Kimchi',
+      'sides.kimchi.note': 'Korean fermented vegetables',
+      'sides.dumplings': 'Pan-fried chicken dumplings',
+      'sides.dumplings.note': '5\u00d7 or 10\u00d7',
+      'sides.gyoza': 'Pan-fried vegetable gyoza',
+      'sides.gyoza.note': '5\u00d7 or 10\u00d7',
+      'sides.pancake': 'Japanese savory pancake sticks',
+      'sides.pancake.note': '2 pieces',
+
+      /* Menu – Fried */
+      'fried.takoyaki': 'Takoyaki (octopus fritters)',
+      'fried.chicken': 'Japanese fried chicken',
+      'fried.spring': 'Spring rolls',
+      'fried.shrimp': 'Ebi fry (Japanese fried shrimp)',
+      'fried.skewers': 'Chicken onion skewers',
+
+      /* Menu – Desserts */
+      'dessert.dango': 'Dango sticks',
+      'dessert.mochi': 'Mochi ice cream',
+      'dessert.tofu': 'Tofu pudding',
+
+      /* Toppings */
+      'topping.chashu': 'Chashu pork (3\u00d7)',
+      'topping.chicken': 'Chicken fillet (3\u00d7)',
+      'topping.seafood': 'Diverse seafood (100g)',
+      'topping.shrimp': 'Shrimps (2\u00d7)',
+      'topping.egg': 'Ajitama egg',
+      'topping.scallions': 'Scallions',
+      'topping.redOnions': 'Red onions',
+      'topping.dryOnions': 'Dry onions',
+      'topping.corn': 'Corn',
+      'topping.bamboo': 'Bamboo shoots',
+      'topping.bokchoy': 'Boiled bok choy',
+      'topping.boiledVeg': 'Boiled vegetables',
+      'topping.noodles': 'Extra noodles',
+      'topping.seaweed': 'Dried seaweed',
+
+      /* Sauces */
+      'sauce.mayo': 'Japanese mayonnaise',
+      'sauce.sweetChili': 'Sweet chili sauce',
+      'sauce.hot': 'Hot sauce (Sriracha)',
+      'sauce.takoyaki': 'Takoyaki sauce',
+      'sauce.okono': 'Okonomiyaki sauce',
+      'sauce.teriyaki': 'Teriyaki sauce',
+
+      /* About page */
+      'about.label': 'About us',
+      'about.p1': 'Tsukimi Ramen is a casual ramen spot located in the heart of Amsterdam, on the first floor of Damrak 45 \u2014 above At James, which has been welcoming guests since 2011.',
+      'about.p2': 'Inspired by the energy of the city, we offer a simple and welcoming space just above the busy streets. Step upstairs and take a break from the crowds.',
+      'about.p3': 'Our focus is on fresh, quality ramen made for a quick, comfortable meal in the city.',
+      'about.viewMenu': 'View our menu',
+      'about.reserve': 'Reserve a table',
+
+      /* Full Menu PDF */
+      'fullmenu.catbar': 'Full Menu PDF',
+      'fullmenu.title': 'Full Menu',
+      'fullmenu.desc': 'View our complete menu \u2014 including drinks, extra toppings and sauces \u2014 as a PDF.',
+      'fullmenu.btn': 'View Full Menu (PDF)',
+    },
+
+    nl: {
+      /* Nav */
+      'nav.home': 'Home',
+      'nav.menu': 'Menu',
+      'nav.about': 'Over ons',
+      'nav.reserve': 'Reserveer',
+
+      /* Hero */
+      'hero.tagline': 'Authentieke Japanse ramen boven de drukke straten van de Damrak.',
+      'hero.sub': 'Rijke bouillons, verse noodles en een rustige plek op de eerste verdieping in het hart van Amsterdam.',
+      'hero.address': 'Damrak 45 · Eerste verdieping<br>Amsterdam',
+      'hero.reserveBtn': 'Reserveer een tafel',
+      'hero.viewMenu': 'Bekijk menu',
+      'hero.hours': 'Dagelijks open · 09:00 \u2013 23:00',
+
+      /* Index – Menu preview */
+      'menuPreview.label': 'Een voorproefje van boven',
+      'menuPreview.heading': 'Vers, eenvoudig <em>ramen.</em>',
+      'card.tonkotsu.name': 'Tonkotsu Ramen',
+      'card.tonkotsu.desc': 'Rijke varkensbouillon met noedels, chashu varkensvlees, paksoi en zacht gekookt ei',
+      'card.veg.name': 'Groente Miso Ramen',
+      'card.veg.desc': 'Vegetarische ramen met miso, paksoi, mais, broccoli, bamboescheuten en zeewier',
+      'card.special.name': 'Tsukimi Ramen Special',
+      'card.special.desc': 'Rijke varkensbouilon met spareribs, paksoi, bamboescheuten, narutomaki en zacht gekookt ei',
+      'menuPreview.cta': 'Ons Ramen \u2192',
+
+      /* Index – Concept */
+      'concept.label': 'Ons verhaal',
+      'concept.text': 'Net boven de drukke straten van Damrak biedt Tsukimi Ramen een rustige plek in het hart van Amsterdam. Ga naar boven en geniet van een warm, casual ramen-ervaring weg van de drukte.',
+
+      /* Index – Reserve CTA */
+      'reserve.label': 'Reserveringen',
+      'reserve.heading': '<em>Reserveer je</em> tafel',
+      'reserve.sub': 'Sla het wachten over en zeker je plek boven.',
+      'reserve.btn': 'Nu reserveren',
+      'reserve.note': 'Online reserveringen komen binnenkort.',
+
+      /* Index – Location */
+      'location.label': 'Vind ons',
+      'location.heading': 'Wij zitten <em>boven</em>',
+      'location.desc': 'Gelegen boven At James op Damrak 45, eerste verdieping.<br>Loop naar boven en ontdek Tsukimi Ramen.',
+      'location.addrKey': 'Adres',
+      'location.addrVal': 'Damrak 45, Eerste verdieping, Amsterdam',
+      'location.hoursKey': 'Openingstijden',
+      'location.hoursVal': '09:00 \u2013 23:00 dagelijks',
+      'location.phoneKey': 'Telefoon',
+      'location.emailKey': 'E-mail',
+      'location.note': '<strong>Zoek naar At James op Damrak 45</strong> \u2014 wij zitten op de eerste verdieping. Neem de trap omhoog en je vindt ons.',
+
+      /* Social */
+      'social.label': 'Volg ons',
+      'social.heading': 'Blijf op de hoogte',
+
+      /* Footer */
+      'footer.tagline': 'Ramen boven in het hart van Amsterdam',
+      'footer.menu': 'Menu',
+      'footer.about': 'Over ons',
+
+      /* Menu page */
+      'menu.pageTitle': 'Ons Menu',
+      'menu.subtitle': 'Verse ramen op de eerste verdieping in het hart van Amsterdam',
+      'menu.ramenCat': 'Ramen',
+      'menu.sidesCat': 'Bijgerechten',
+      'menu.friedCat': 'Gefrituurde Gerechten',
+      'menu.dessertCat': 'Nagerechten',
+      'menu.toppingsCat': 'Extra Toppings',
+      'menu.saucesCat': 'Sauzen',
+
+      /* Menu – Ramen */
+      'ramen.intro': 'We maken onze bouillons elke dag vers — urenlang langzaam gekookt zodat elke kom vol smaak zit. Kies je favoriet en geniet ervan boven, weg van de drukte beneden.',
+      'ramen.special.name': 'Tsukimi Ramen Special',
+      'ramen.special.desc': 'Rijke varkensbouillon met noedels, spareribs, paksoi, bamboescheuten, narutomaki, zacht gemarineerd ei, zeewier, witte sesamzaadjes en lente-ui',
+      'ramen.tonkotsu.name': 'Tonkotsu Ramen',
+      'ramen.tonkotsu.desc': 'Rijke varkensbouillon met noedels, chashu varkensvlees, paksoi, bamboescheuten, narutomaki, zacht gemarineerd ei, zeewier, witte sesamzaadjes en lente-ui',
+      'ramen.paitan.name': 'Paitan Kip Ramen',
+      'ramen.paitan.desc': 'Paitan kippenbouillon met noedels, kipfilet, paksoi, bamboescheuten, narutomaki, zacht gemarineerd ei en lente-ui',
+      'ramen.seafood.name': 'Zeevruchten Ramen',
+      'ramen.seafood.desc': 'Keuze tussen paitan kip of rijke varkensbouillon met noedels, diverse zeevruchten, paksoi, bamboescheuten, narutomaki, zacht gemarineerd ei, bonitovlokken en lente-ui',
+      'ramen.vegmiso.name': 'Groente Miso Ramen',
+      'ramen.vegmiso.desc': 'Vegetarische ramen met miso, noedels, paksoi, mais, broccoli, bamboescheuten, zeewier en lente-ui',
+
+      /* Menu – Sides */
+      'sides.seaweed': 'Gekruide zeewier salade',
+      'sides.edamame': 'Edamame',
+      'sides.kimchi': 'Kimchi',
+      'sides.kimchi.note': 'Koreaanse gefermenteerde groenten',
+      'sides.dumplings': 'Gebakken kip dumplings',
+      'sides.dumplings.note': '5\u00d7 of 10\u00d7',
+      'sides.gyoza': 'Gebakken groente gyoza',
+      'sides.gyoza.note': '5\u00d7 of 10\u00d7',
+      'sides.pancake': 'Japanse hartige pannenkoekstokjes',
+      'sides.pancake.note': '2 stuks',
+
+      /* Menu – Fried */
+      'fried.takoyaki': 'Takoyaki (octopusbitterbal)',
+      'fried.chicken': 'Japans gefrituurde kip',
+      'fried.spring': "Loempia's",
+      'fried.shrimp': 'Ebi fry (gefrituurde garnalen)',
+      'fried.skewers': 'Kip-uispiesjes',
+
+      /* Menu – Desserts */
+      'dessert.dango': 'Dango stokjes',
+      'dessert.mochi': 'Mochi ijs',
+      'dessert.tofu': 'Tofu pudding',
+
+      /* Toppings */
+      'topping.chashu': 'Chashu varkensvlees (3\u00d7)',
+      'topping.chicken': 'Kipfilet (3\u00d7)',
+      'topping.seafood': 'Diverse zeevruchten (100g)',
+      'topping.shrimp': 'Garnalen (2\u00d7)',
+      'topping.egg': 'Ajitama ei',
+      'topping.scallions': 'Lente-ui',
+      'topping.redOnions': 'Rode ui',
+      'topping.dryOnions': 'Droge ui',
+      'topping.corn': 'Ma\u00efs',
+      'topping.bamboo': 'Bamboescheuten',
+      'topping.bokchoy': 'Gekookte paksoi',
+      'topping.boiledVeg': 'Gekookte groenten',
+      'topping.noodles': 'Extra noedels',
+      'topping.seaweed': 'Gedroogd zeewier',
+
+      /* Sauces */
+      'sauce.mayo': 'Japanse mayonaise',
+      'sauce.sweetChili': 'Zoete chilisaus',
+      'sauce.hot': 'Hete saus (Sriracha)',
+      'sauce.takoyaki': 'Takoyaki saus',
+      'sauce.okono': 'Okonomiyaki saus',
+      'sauce.teriyaki': 'Teriyaki saus',
+
+      /* About page */
+      'about.label': 'Over ons',
+      'about.p1': 'Tsukimi Ramen is een casual ramen restaurant in het hart van Amsterdam, op de eerste verdieping van Damrak 45 \u2014 boven At James, dat gasten verwelkomt sinds 2011.',
+      'about.p2': 'Ge\u00efnspireerd door de energie van de stad bieden wij een eenvoudige en gastvrije plek net boven de drukke straten. Ga naar boven en neem een pauze van de drukte.',
+      'about.p3': 'Onze focus ligt op vers, kwalitatief ramen voor een snelle, comfortabele maaltijd in de stad.',
+      'about.viewMenu': 'Bekijk ons menu',
+      'about.reserve': 'Reserveer een tafel',
+
+      /* Full Menu PDF */
+      'fullmenu.catbar': 'Volledig Menu PDF',
+      'fullmenu.title': 'Volledig Menu',
+      'fullmenu.desc': 'Bekijk ons complete menu \u2014 inclusief dranken, extra toppings en sauzen \u2014 als PDF.',
+      'fullmenu.btn': 'Bekijk volledig menu (PDF)',
+    },
+
+    ja: {
+      /* Nav */
+      'nav.home': '\u30db\u30fc\u30e0',
+      'nav.menu': '\u30e1\u30cb\u30e5\u30fc',
+      'nav.about': '\u79c1\u305f\u3061\u306b\u3064\u3044\u3066',
+      'nav.reserve': '\u4e88\u7d04',
+
+      /* Hero */
+      'hero.tagline': '\u30c0\u30e0\u30e9\u30fc\u30af\u306e\u8ce1\u308f\u3044\u901a\u308a\u306e\u4e0a\u3001\u672c\u683c\u7684\u306a\u65e5\u672c\u306e\u30e9\u30fc\u30e1\u30f3\u3002',
+      'hero.sub': '\u6fc3\u539a\u306a\u30b9\u30fc\u30d7\u3001\u65b0\u9bae\u306a\u9eba\u3001\u30a2\u30e0\u30b9\u30c6\u30eb\u30c0\u30e0\u4e2d\u5fc3\u306e\u9759\u304b\u306a1\u968e\u5e2d\u3067\u3002',
+      'hero.address': '\u30c0\u30e0\u30e9\u30af45\u756a\u5730\u30fb1\u968e<br>\u30a2\u30e0\u30b9\u30c6\u30eb\u30c0\u30e0',
+      'hero.reserveBtn': '\u30c6\u30fc\u30d6\u30eb\u3092\u4e88\u7d04\u3059\u308b',
+      'hero.viewMenu': '\u30e1\u30cb\u30e5\u30fc\u3092\u898b\u308b',
+      'hero.hours': '\u6bce\u65e5\u55b6\u696d · 09:00 \u2013 23:00',
+
+      /* Index – Menu preview */
+      'menuPreview.label': '1\u968e\u306e\u304a\u5473\u3092\u3069\u3046\u305e',
+      'menuPreview.heading': '\u65b0\u9bae\u3067\u30b7\u30f3\u30d7\u30eb\u306a<em>\u30e9\u30fc\u30e1\u30f3\u3002</em>',
+      'card.tonkotsu.name': '\u8c5a\u9aa8\u30e9\u30fc\u30e1\u30f3',
+      'card.tonkotsu.desc': '\u6fc3\u539a\u306a\u8c5a\u9aa8\u30b9\u30fc\u30d7\u3001\u9eba\u3001\u30c1\u30e3\u30fc\u30b7\u30e5\u30fc\u3001\u767d\u83dc\u3001\u534a\u71df\u5375',
+      'card.veg.name': '\u91ce\u83dc\u5473\u564c\u30e9\u30fc\u30e1\u30f3',
+      'card.veg.desc': '\u5473\u564c\u30d9\u30fc\u30b9\u306e\u30d9\u30b8\u30bf\u30ea\u30a2\u30f3\u30e9\u30fc\u30e1\u30f3\u3001\u767d\u83dc\u3001\u30b3\u30fc\u30f3\u3001\u30d6\u30ed\u30c3\u30b3\u30ea\u30fc\u3001\u7b4b\u306e\u5b50\u3001\u6d77\u82d3',
+      'card.special.name': '\u6708\u898b\u30e9\u30fc\u30e1\u30f3\u30b9\u30da\u30b7\u30e3\u30eb',
+      'card.special.desc': '\u6fc3\u539a\u306a\u8c5a\u9aa8\u30b9\u30fc\u30d7\u3001\u30b9\u30da\u30a2\u30ea\u30d6\u3001\u767d\u83dc\u3001\u7b4b\u306e\u5b50\u3001\u306a\u308b\u3068\u3001\u534a\u71df\u5375',
+      'menuPreview.cta': '\u30e9\u30fc\u30e1\u30f3\u30e1\u30cb\u30e5\u30fc \u2192',
+
+      /* Index – Concept */
+      'concept.label': '\u30b9\u30c8\u30fc\u30ea\u30fc',
+      'concept.text': '\u30c0\u30e0\u30e9\u30fc\u30af\u306e\u8ce1\u308f\u3044\u901a\u308a\u306e\u3059\u3050\u4e0a\u306b\u4f4d\u7f6e\u3059\u308b\u30c4\u30ad\u30df\u30e9\u30fc\u30e1\u30f3\u306f\u3001\u30a2\u30e0\u30b9\u30c6\u30eb\u30c0\u30e0\u306e\u4e2d\u5fc3\u306b\u9759\u304b\u306a\u3072\u3068\u3068\u304d\u3092\u3054\u63d0\u4f9b\u3057\u307e\u3059\u30021\u968e\u306b\u4e0a\u304c\u308a\u3001\u559d\u9a12\u304b\u3089\u96e2\u308c\u305f\u6e29\u304b\u304f\u30ab\u30b8\u30e5\u30a2\u30eb\u306a\u30e9\u30fc\u30e1\u30f3\u4f53\u9a13\u3092\u3069\u3046\u305e\u3002',
+
+      /* Index – Reserve CTA */
+      'reserve.label': '\u3054\u4e88\u7d04',
+      'reserve.heading': '<em>\u30c6\u30fc\u30d6\u30eb\u3092</em>\u3054\u4e88\u7d04',
+      'reserve.sub': '\u5f85\u3061\u6642\u9593\u306a\u3057\u30671\u968e\u306e\u304a\u5e2d\u3092\u78ba\u4fdd\u3057\u3066\u304f\u3060\u3055\u3044\u3002',
+      'reserve.btn': '\u4eca\u3059\u3050\u4e88\u7d04',
+      'reserve.note': '\u30aa\u30f3\u30e9\u30a4\u30f3\u4e88\u7d04\u306f\u8fd1\u65e5\u516c\u958b\u4e88\u5b9a\u3067\u3059\u3002',
+
+      /* Index – Location */
+      'location.label': '\u30a2\u30af\u30bb\u30b9',
+      'location.heading': '\u30e9\u30fc\u30e1\u30f3\u5c4b\u306f<em>\u4e00\u968e</em>\u306b\u3054\u3056\u3044\u307e\u3059',
+      'location.desc': '\u30c0\u30e0\u30e9\u30af45\u756a\u5730\u306eAt James\u306e\u4e0a\u30011\u968e\u306b\u3054\u3056\u3044\u307e\u3059\u3002<br>\u968e\u6bb5\u3092\u4e0a\u304c\u3063\u3066\u30c4\u30ad\u30df\u30e9\u30fc\u30e1\u30f3\u3092\u304a\u697d\u3057\u307f\u304f\u3060\u3055\u3044\u3002',
+      'location.addrKey': '\u4f4f\u6240',
+      'location.addrVal': '\u30c0\u30e0\u30e9\u30af45\u756a\u5730\u30fb1\u968e\u3001\u30a2\u30e0\u30b9\u30c6\u30eb\u30c0\u30e0',
+      'location.hoursKey': '\u55b6\u696d\u6642\u9593',
+      'location.hoursVal': '\u6bce\u65e5 09:00 \u2013 23:00',
+      'location.phoneKey': '\u96fb\u8a71',
+      'location.emailKey': '\u30e1\u30fc\u30eb',
+      'location.note': '<strong>\u30c0\u30e0\u30e9\u30af45\u756a\u5730\u306eAt James\u3092\u304a\u63a2\u3057\u304f\u3060\u3055\u3044</strong> \u2014 1\u968e\u306b\u3054\u3056\u3044\u307e\u3059\u3002\u968e\u6bb5\u3092\u4e0a\u304c\u308b\u3068\u3059\u3050\u898b\u3064\u304b\u308a\u307e\u3059\u3002',
+
+      /* Social */
+      'social.label': 'フォローする',
+      'social.heading': '最新情報をチェック',
+
+      /* Footer */
+      'footer.tagline': '\u30a2\u30e0\u30b9\u30c6\u30eb\u30c0\u30e0\u306e\u4e2d\u5fc3\u3067\u3001\u4e0a\u306e\u968e\u306e\u30e9\u30fc\u30e1\u30f3',
+      'footer.menu': '\u30e1\u30cb\u30e5\u30fc',
+      'footer.about': '\u79c1\u305f\u3061\u306b\u3064\u3044\u3066',
+
+      /* Menu page */
+      'menu.pageTitle': '\u30e1\u30cb\u30e5\u30fc',
+      'menu.subtitle': '\u30a2\u30e0\u30b9\u30c6\u30eb\u30c0\u30e0\u306e\u4e2d\u5fc3\u30011\u968e\u3067\u65b0\u9bae\u306a\u30e9\u30fc\u30e1\u30f3\u3092',
+      'menu.ramenCat': '\u30e9\u30fc\u30e1\u30f3',
+      'menu.sidesCat': '一品料理',
+      'menu.friedCat': '\u63da\u3052\u7269',
+      'menu.dessertCat': '\u30c7\u30b6\u30fc\u30c8',
+      'menu.toppingsCat': '\u30c8\u30c3\u30d4\u30f3\u30b0',
+      'menu.saucesCat': '\u30bd\u30fc\u30b9',
+
+      /* Menu – Ramen */
+      'ramen.intro': '\u30b9\u30fc\u30d7\u306f\u6bce\u65e5\u65b0\u9bae\u306b\u4f5c\u308a\u307e\u3059\u3002\u4f55\u6642\u9593\u3082\u30b3\u30c8\u30b3\u30c8\u3068\u716e\u8fbc\u3093\u3060\u30b9\u30fc\u30d7\u306f\u3001\u4e00\u676f\u4e00\u676f\u306b\u6df1\u3044\u65e8\u5473\u304c\u8a70\u307e\u3063\u3066\u3044\u307e\u3059\u3002\u304a\u597d\u307f\u306e\u4e00\u676f\u3092\u9078\u3093\u3067\u3001\u901a\u308a\u306e\u55a7\u9a12\u304b\u3089\u96e2\u308c\u305f1\u968e\u3067\u3054\u3086\u3063\u304f\u308a\u304a\u697d\u3057\u307f\u304f\u3060\u3055\u3044\u3002',
+      'ramen.special.name': '\u6708\u898b\u30e9\u30fc\u30e1\u30f3\u30b9\u30da\u30b7\u30e3\u30eb',
+      'ramen.special.desc': '濃厚な豚骨スープ、麺、スペアリブ、チンゲン菜、メンマ、鳴人巻、味玉、海苔、白ごま、ネギ',
+      'ramen.tonkotsu.name': '\u8c5a\u9aa8\u30e9\u30fc\u30e1\u30f3',
+      'ramen.tonkotsu.desc': '濃厚な豚骨スープ、麺、チャーシュー、チンゲン菜、メンマ、鳴人巻、味玉、海苔、白ごま、ネギ',
+      'ramen.paitan.name': '\u767d\u6e6f\u9d8f\u30e9\u30fc\u30e1\u30f3',
+      'ramen.paitan.desc': '鶏白湯、麺、チキンフィレ、チンゲン菜、メンマ、鳴人巻、味玉、ネギ',
+      'ramen.seafood.name': '\u6d77\u9bae\u30e9\u30fc\u30e1\u30f3',
+      'ramen.seafood.desc': '鶏白湯または豚骨スープ、麺、各種海鮮、チンゲン菜、メンマ、鳴人巻、味玉、鰹節、ネギ',
+      'ramen.vegmiso.name': '\u91ce\u83dc\u5473\u564c\u30e9\u30fc\u30e1\u30f3',
+      'ramen.vegmiso.desc': '味噌ベースのベジタリアンラーメン、麺、チンゲン菜、コーン、ブロッコリー、メンマ、海苔、ネギ',
+
+      /* Menu – Sides */
+      'sides.seaweed': '\u5473\u4ed8\u3051\u6d77\u85fb\u30b5\u30e9\u30c0',
+      'sides.edamame': '\u679d\u8c46',
+      'sides.kimchi': '\u30ad\u30e0\u30c1',
+      'sides.kimchi.note': '\u97d3\u56fd\u767a\u9175\u91ce\u83dc',
+      'sides.dumplings': '焼き餃子鶏肉',
+      'sides.dumplings.note': '5\u500b\u307e\u305f\u306f10\u500b',
+      'sides.gyoza': '野菜餃子',
+      'sides.gyoza.note': '5\u500b\u307e\u305f\u306f10\u500b',
+      'sides.pancake': 'お好み焼き串',
+      'sides.pancake.note': '2\u672c',
+
+      /* Menu – Fried */
+      'fried.takoyaki': '\u305f\u3053\u713c\u304d',
+      'fried.chicken': '\u5510\u63da\u3052',
+      'fried.spring': '\u6625\u5dfb\u304d',
+      'fried.shrimp': '\u30a8\u30d3\u30d5\u30e9\u30a4',
+      'fried.skewers': '\u9d8f\u306d\u304e\u4e32',
+
+      /* Menu – Desserts */
+      'dessert.dango': '団子串',
+      'dessert.mochi': '餅アイス',
+      'dessert.tofu': '\u8c46\u8150\u30d7\u30ea\u30f3',
+
+      /* Toppings */
+      'topping.chashu': '\u30c1\u30e3\u30fc\u30b7\u30e5\u30fc\uff083\u679a\uff09',
+      'topping.chicken': '\u9d8f\u30d5\u30a3\u30ec\uff083\u679a\uff09',
+      'topping.seafood': '\u5404\u7a2e\u6d77\u9bae\uff08100g\uff09',
+      'topping.shrimp': '\u30a8\u30d3\uff082\u500b\uff09',
+      'topping.egg': '\u5473\u7389',
+      'topping.scallions': '\u30cd\u30ae',
+      'topping.redOnions': '\u8d64\u7389\u306d\u304e',
+      'topping.dryOnions': '\u4e7e\u71e5\u7389\u306d\u304e',
+      'topping.corn': '\u30b3\u30fc\u30f3',
+      'topping.bamboo': '\u7b4b\u306e\u5b50',
+      'topping.bokchoy': '\u30086\u3067\u305f\u767d\u83dc',
+      'topping.boiledVeg': '\u30086\u3067\u305f\u91ce\u83dc',
+      'topping.noodles': '\u8ffd\u52a0\u306e\u9eba',
+      'topping.seaweed': '\u6d77\u82d3',
+
+      /* Sauces */
+      'sauce.mayo': '\u30de\u30e8\u30cd\u30fc\u30ba',
+      'sauce.sweetChili': '\u30b9\u30a4\u30fc\u30c8\u30c1\u30ea\u30bd\u30fc\u30b9',
+      'sauce.hot': '\u30db\u30c3\u30c8\u30bd\u30fc\u30b9\uff08\u30b9\u30ea\u30e9\u30c1\u30e3\uff09',
+      'sauce.takoyaki': '\u305f\u3053\u713c\u304d\u30bd\u30fc\u30b9',
+      'sauce.okono': '\u304a\u597d\u307f\u30bd\u30fc\u30b9',
+      'sauce.teriyaki': '\u7167\u308a\u713c\u304d\u30bd\u30fc\u30b9',
+
+      /* About page */
+      'about.label': '\u79c1\u305f\u3061\u306b\u3064\u3044\u3066',
+      'about.p1': '\u30c4\u30ad\u30df\u30e9\u30fc\u30e1\u30f3\u306f\u3001\u30a2\u30e0\u30b9\u30c6\u30eb\u30c0\u30e0\u306e\u4e2d\u5fc3\u306b\u4f4d\u7f6e\u3059\u308b\u30ab\u30b8\u30e5\u30a2\u30eb\u306a\u30e9\u30fc\u30e1\u30f3\u5c02\u9580\u5e97\u3067\u3059\u3002\u30c0\u30e0\u30e9\u30af45\u756a\u5730\u30021\u968e\u3001At James\u306e\u4e0a\u306b\u3054\u3056\u3044\u307e\u3059\u30022011\u5e74\u304b\u3089\u55b6\u696d\u3057\u3066\u3044\u307e\u3059\u3002',
+      'about.p2': '\u90fd\u5e02\u306e\u30a8\u30cd\u30eb\u30ae\u30fc\u306b\u30a4\u30f3\u30b9\u30d1\u30a4\u30a2\u3055\u308c\u3001\u8ce1\u308f\u3044\u901a\u308a\u306e\u3059\u3050\u4e0a\u306b\u30b7\u30f3\u30d7\u30eb\u3067\u6e29\u304b\u3044\u7a7a\u9593\u3092\u3054\u63d0\u4f9b\u3057\u3066\u3044\u307e\u3059\u30021\u968e\u306b\u4e0a\u304c\u308a\u3001\u559d\u9a12\u304b\u3089\u9000\u3044\u3066\u30ea\u30e9\u30c3\u30af\u30b9\u3057\u3066\u304f\u3060\u3055\u3044\u3002',
+      'about.p3': '\u65b0\u9bae\u3067\u8cea\u306e\u9ad8\u3044\u30e9\u30fc\u30e1\u30f3\u3092\u30011\u56de\u306e\u5feb\u9069\u306a\u98df\u4e8b\u3068\u3057\u3066\u63d0\u4f9b\u3059\u308b\u3053\u3068\u304c\u79c1\u305f\u3061\u306e\u76ee\u6a19\u3067\u3059\u3002',
+      'about.viewMenu': '\u30e1\u30cb\u30e5\u30fc\u3092\u898b\u308b',
+      'about.reserve': '\u30c6\u30fc\u30d6\u30eb\u3092\u4e88\u7d04\u3059\u308b',
+
+      /* Full Menu PDF */
+      'fullmenu.catbar': '\u5168\u30e1\u30cb\u30e5\u30fc PDF',
+      'fullmenu.title': '\u5168\u30e1\u30cb\u30e5\u30fc',
+      'fullmenu.desc': '\u30c9\u30ea\u30f3\u30af\u3001\u8ffd\u52a0\u30c8\u30c3\u30d4\u30f3\u30b0\u3001\u30bd\u30fc\u30b9\u3092\u542b\u3080\u5b8c\u5168\u306a\u30e1\u30cb\u30e5\u30fc\u3092PDF\u3067\u3054\u89a7\u304f\u3060\u3055\u3044\u3002',
+      'fullmenu.btn': '\u30e1\u30cb\u30e5\u30fc\u3092PDF\u3067\u898b\u308b',
+    }
+  };
+
+  function applyLang(lang) {
+    if (!t[lang]) return;
+    var dict = t[lang];
+
+    document.querySelectorAll('[data-i18n]').forEach(function(el) {
+      var key = el.getAttribute('data-i18n');
+      if (dict[key] !== undefined) el.textContent = dict[key];
+    });
+
+    document.querySelectorAll('[data-i18n-html]').forEach(function(el) {
+      var key = el.getAttribute('data-i18n-html');
+      if (dict[key] !== undefined) el.innerHTML = dict[key];
+    });
+
+    document.querySelectorAll('.lang-switcher button').forEach(function(btn) {
+      btn.classList.toggle('active', btn.dataset.lang === lang);
+    });
+
+    localStorage.setItem('tsukimi-lang', lang);
+    document.documentElement.lang = lang === 'ja' ? 'ja' : (lang === 'nl' ? 'nl' : 'en');
+  }
+
+  function initHamburger() {
+    var btn = document.getElementById('nav-toggle-btn');
+    var nav = document.querySelector('.site-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function() {
+      nav.classList.toggle('nav-open');
+    });
+    document.querySelectorAll('.nav-links a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        nav.classList.remove('nav-open');
+      });
+    });
+  }
+
+  function init() {
+    var saved = localStorage.getItem('tsukimi-lang') || 'en';
+    applyLang(saved);
+    document.querySelectorAll('.lang-switcher button').forEach(function(btn) {
+      btn.addEventListener('click', function() { applyLang(btn.dataset.lang); });
+    });
+    initHamburger();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
