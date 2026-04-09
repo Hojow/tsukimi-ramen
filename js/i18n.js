@@ -147,6 +147,50 @@
       'fullmenu.title': 'Full Menu',
       'fullmenu.desc': 'View our complete menu \u2014 including drinks, extra toppings and sauces \u2014 as a PDF.',
       'fullmenu.btn': 'View Full Menu (PDF)',
+
+      /* Careers page */
+      'nav.careers': 'Careers',
+      'footer.careers': 'Careers',
+      'careers.label': 'Join us',
+      'careers.heading': 'Join the <em>Tsukimi Team</em>',
+      'careers.intro': 'Want to work in the heart of Amsterdam? Tsukimi Ramen is a cozy Japanese ramen spot located above the busy streets of Damrak. We\u2019re always looking for friendly, motivated people who enjoy working in a warm and dynamic environment.',
+      'careers.intro2': 'Join our team and be part of a growing concept focused on quality, hospitality, and authentic ramen.',
+      'careers.perk1.title': 'Great food',
+      'careers.perk1.desc': 'Staff meals included. Fresh ramen every shift.',
+      'careers.perk2.title': 'Central location',
+      'careers.perk2.desc': 'Right in the heart of Amsterdam, steps from Centraal Station.',
+      'careers.perk3.title': 'Warm team',
+      'careers.perk3.desc': 'A small, friendly team in a cozy and energetic atmosphere.',
+      'careers.form.label': 'Apply now',
+      'careers.form.heading': 'Send us your <em>application</em>',
+      'careers.form.name': 'Full name',
+      'careers.form.name.ph': 'Your name',
+      'careers.form.email': 'Email address',
+      'careers.form.email.ph': 'your@email.com',
+      'careers.form.phone': 'Phone',
+      'careers.form.phone.ph': '+31 6 ...',
+      'careers.form.optional': '(optional)',
+      'careers.form.position': 'Position',
+      'careers.form.position.ph': 'Select a position\u2026',
+      'careers.form.pos.kitchen': 'Kitchen Staff',
+      'careers.form.pos.foh': 'Front of House',
+      'careers.form.pos.dish': 'Dishwasher',
+      'careers.form.pos.other': 'Other',
+      'careers.form.message': 'Tell us about yourself',
+      'careers.form.message.ph': 'Tell us a bit about yourself, your experience, and why you\u2019d like to join Tsukimi Ramen\u2026',
+      'careers.form.cv': 'CV',
+      'careers.form.cv.hint': 'PDF, Word \u2014 max. 5 MB',
+      'careers.form.submit': 'Send application',
+      'careers.success.title': 'Thank you!',
+      'careers.success.msg': 'We received your application and will get back to you soon.',
+
+      /* Thank you page */
+      'thankyou.label': 'Application received',
+      'thankyou.heading': 'Thank <em>you!</em>',
+      'thankyou.msg': 'We received your application and will get back to you as soon as possible.',
+      'thankyou.sub': 'In the meantime, feel free to follow us on Instagram or take a look at our menu.',
+      'thankyou.home': 'Back to home',
+      'thankyou.menu': 'View our menu',
     },
 
     nl: {
@@ -291,6 +335,50 @@
       'fullmenu.title': 'Volledig Menu',
       'fullmenu.desc': 'Bekijk ons complete menu \u2014 inclusief dranken, extra toppings en sauzen \u2014 als PDF.',
       'fullmenu.btn': 'Bekijk volledig menu (PDF)',
+
+      /* Careers page */
+      'nav.careers': 'Vacatures',
+      'footer.careers': 'Vacatures',
+      'careers.label': 'Word collega',
+      'careers.heading': 'Word onderdeel van het <em>Tsukimi Team</em>',
+      'careers.intro': 'Wil jij werken in het hart van Amsterdam? Tsukimi Ramen is een gezellig Japans ramen restaurant boven de drukke straten van de Damrak. We zijn altijd op zoek naar vriendelijke, gemotiveerde mensen die het leuk vinden om in een warme en dynamische omgeving te werken.',
+      'careers.intro2': 'Word onderdeel van ons team en draag bij aan een groeiend concept gericht op kwaliteit, gastvrijheid en authentieke ramen.',
+      'careers.perk1.title': 'Lekker eten',
+      'careers.perk1.desc': 'Personeelsmaaltijden inbegrepen. Verse ramen elke dienst.',
+      'careers.perk2.title': 'Centrale locatie',
+      'careers.perk2.desc': 'Midden in het hart van Amsterdam, op loopafstand van Centraal Station.',
+      'careers.perk3.title': 'Warm team',
+      'careers.perk3.desc': 'Een klein, gezellig team in een warme en energieke sfeer.',
+      'careers.form.label': 'Solliciteer nu',
+      'careers.form.heading': 'Stuur ons jouw <em>sollicitatie</em>',
+      'careers.form.name': 'Volledige naam',
+      'careers.form.name.ph': 'Jouw naam',
+      'careers.form.email': 'E-mailadres',
+      'careers.form.email.ph': 'jouw@email.com',
+      'careers.form.phone': 'Telefoonnummer',
+      'careers.form.phone.ph': '+31 6 ...',
+      'careers.form.optional': '(optioneel)',
+      'careers.form.position': 'Functie',
+      'careers.form.position.ph': 'Kies een functie\u2026',
+      'careers.form.pos.kitchen': 'Keukenhulp',
+      'careers.form.pos.foh': 'Bediening',
+      'careers.form.pos.dish': 'Afwassen',
+      'careers.form.pos.other': 'Overig',
+      'careers.form.message': 'Vertel iets over jezelf',
+      'careers.form.message.ph': 'Vertel ons wat over jezelf, je ervaring en waarom je bij Tsukimi Ramen wil werken\u2026',
+      'careers.form.cv': 'CV',
+      'careers.form.cv.hint': 'PDF, Word \u2014 max. 5 MB',
+      'careers.form.submit': 'Verstuur sollicitatie',
+      'careers.success.title': 'Bedankt!',
+      'careers.success.msg': 'We hebben je sollicitatie ontvangen en nemen zo snel mogelijk contact met je op.',
+
+      /* Thank you page */
+      'thankyou.label': 'Sollicitatie ontvangen',
+      'thankyou.heading': 'Bedankt <em>voor je sollicitatie!</em>',
+      'thankyou.msg': 'We hebben je sollicitatie ontvangen en nemen zo snel mogelijk contact met je op.',
+      'thankyou.sub': 'Volg ons ondertussen op Instagram of bekijk ons menu.',
+      'thankyou.home': 'Terug naar home',
+      'thankyou.menu': 'Bekijk ons menu',
     },
 
     ja: {
@@ -435,6 +523,50 @@
       'fullmenu.title': '\u5168\u30e1\u30cb\u30e5\u30fc',
       'fullmenu.desc': '\u30c9\u30ea\u30f3\u30af\u3001\u8ffd\u52a0\u30c8\u30c3\u30d4\u30f3\u30b0\u3001\u30bd\u30fc\u30b9\u3092\u542b\u3080\u5b8c\u5168\u306a\u30e1\u30cb\u30e5\u30fc\u3092PDF\u3067\u3054\u89a7\u304f\u3060\u3055\u3044\u3002',
       'fullmenu.btn': '\u30e1\u30cb\u30e5\u30fc\u3092PDF\u3067\u898b\u308b',
+
+      /* Careers page */
+      'nav.careers': '採用情報',
+      'footer.careers': '採用情報',
+      'careers.label': '一緒に働きませんか',
+      'careers.heading': '<em>ツキミチーム</em>に参加しよう',
+      'careers.intro': 'アムステルダムの中心で働いてみませんか？ツキミラーメンはダムラークの賑やかな通りの上に位置する、居心地の良い日本のラーメン専門店です。温かくダイナミックな環境で働くのが好きな、フレンドリーでやる気のある方を常に募集しています。',
+      'careers.intro2': '私たちのチームに加わり、品質・おもてなし・本格ラーメンにこだわる成長するコンセプトの一員になってください。',
+      'careers.perk1.title': '美味しい食事',
+      'careers.perk1.desc': 'スタッフ食付き。毎シフト新鮮なラーメンを。',
+      'careers.perk2.title': '好アクセス',
+      'careers.perk2.desc': 'アムステルダム中央駅から徒歩圏内、市の中心に位置。',
+      'careers.perk3.title': '温かいチーム',
+      'careers.perk3.desc': '小さくてアットホームなチームで、活気ある雰囲気。',
+      'careers.form.label': '今すぐ応募',
+      'careers.form.heading': '応募書類を<em>送ってください</em>',
+      'careers.form.name': 'お名前',
+      'careers.form.name.ph': 'お名前',
+      'careers.form.email': 'メールアドレス',
+      'careers.form.email.ph': 'your@email.com',
+      'careers.form.phone': '電話番号',
+      'careers.form.phone.ph': '+31 6 ...',
+      'careers.form.optional': '（任意）',
+      'careers.form.position': '希望ポジション',
+      'careers.form.position.ph': 'ポジションを選択\u2026',
+      'careers.form.pos.kitchen': 'キッチンスタッフ',
+      'careers.form.pos.foh': 'ホールスタッフ',
+      'careers.form.pos.dish': '食器洗い',
+      'careers.form.pos.other': 'その他',
+      'careers.form.message': '自己紹介',
+      'careers.form.message.ph': 'ご自身のこと、経験、ツキミラーメンで働きたい理由をお聞かせください\u2026',
+      'careers.form.cv': '履歴書',
+      'careers.form.cv.hint': 'PDF、Word \u2014 最大5MB',
+      'careers.form.submit': '応募を送信',
+      'careers.success.title': 'ありがとうございます！',
+      'careers.success.msg': 'ご応募を受け付けました。近日中にご連絡いたします。',
+
+      /* Thank you page */
+      'thankyou.label': 'ご応募を受け付けました',
+      'thankyou.heading': 'ありがとう<em>ございます！</em>',
+      'thankyou.msg': 'ご応募を受け付けました。近日中にご連絡いたします。',
+      'thankyou.sub': 'Instagramのフォローやメニューもぜひご覧ください。',
+      'thankyou.home': 'ホームへ戻る',
+      'thankyou.menu': 'メニューを見る',
     }
   };
 
@@ -450,6 +582,11 @@
     document.querySelectorAll('[data-i18n-html]').forEach(function(el) {
       var key = el.getAttribute('data-i18n-html');
       if (dict[key] !== undefined) el.innerHTML = dict[key];
+    });
+
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(function(el) {
+      var key = el.getAttribute('data-i18n-placeholder');
+      if (dict[key] !== undefined) el.placeholder = dict[key];
     });
 
     document.querySelectorAll('.lang-switcher button').forEach(function(btn) {

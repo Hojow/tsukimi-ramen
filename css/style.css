@@ -1335,3 +1335,323 @@ img[src*="wolk"] {
   border-radius: 2px;
   z-index: 2;
 }
+
+/* =============================================
+   CAREERS PAGE
+   ============================================= */
+
+.careers-inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.careers-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.careers-header h1 {
+  margin-bottom: 28px;
+}
+
+.careers-intro {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 680px;
+  margin: 0 auto 16px;
+}
+
+/* Perks */
+.careers-perks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.careers-perk {
+  background: var(--surface);
+  border: 1px solid var(--gold-border);
+  border-radius: 4px;
+  padding: 36px 28px;
+  text-align: center;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.careers-perk:hover {
+  border-color: rgba(212, 148, 58, 0.5);
+  transform: translateY(-3px);
+}
+
+.careers-perk-icon {
+  display: block;
+  font-family: var(--font-head);
+  font-size: 2rem;
+  color: var(--gold);
+  margin-bottom: 16px;
+  opacity: 0.8;
+}
+
+.careers-perk h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.careers-perk p {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+/* Form wrapper */
+.careers-form-wrap {
+  background: var(--surface);
+  border: 1px solid var(--gold-border);
+  border-radius: 4px;
+  padding: 56px 48px;
+  margin-top: 16px;
+}
+
+.careers-form-wrap h2 {
+  margin-bottom: 40px;
+}
+
+/* Form layout */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.form-optional {
+  color: var(--muted);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.75rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background: var(--surface-2);
+  border: 1px solid var(--gold-border);
+  border-radius: 2px;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  padding: 14px 16px;
+  outline: none;
+  transition: border-color 0.25s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form-group select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23d4943a' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.form-group select option {
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: var(--muted);
+  opacity: 0.6;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: rgba(212, 148, 58, 0.6);
+  box-shadow: 0 0 0 3px rgba(212, 148, 58, 0.07);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 140px;
+  line-height: 1.7;
+}
+
+.form-file-input {
+  padding: 10px 12px;
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.form-file-input::-webkit-file-upload-button {
+  background: var(--surface-2);
+  border: 1px solid var(--gold-border);
+  color: var(--gold);
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: border-color 0.25s ease;
+}
+
+.form-file-input::file-selector-button {
+  background: var(--surface-2);
+  border: 1px solid var(--gold-border);
+  color: var(--gold);
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: border-color 0.25s ease;
+}
+
+.form-file-hint {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 6px;
+  opacity: 0.7;
+}
+
+.form-note {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-bottom: 28px;
+  line-height: 1.7;
+}
+
+.form-note a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.careers-submit {
+  width: 100%;
+  padding: 16px;
+  font-size: 0.8rem;
+}
+
+.careers-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Success state */
+.careers-success {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 48px 24px;
+  gap: 16px;
+}
+
+.careers-success-icon {
+  font-size: 3rem;
+  color: var(--gold);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.careers-success h3 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.careers-success p {
+  color: var(--muted);
+  font-size: 1rem;
+  max-width: 400px;
+}
+
+/* =============================================
+   THANK YOU PAGE
+   ============================================= */
+
+.thankyou-section {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.thankyou-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.thankyou-moon {
+  font-size: 3.5rem;
+  color: var(--gold);
+  margin-bottom: 24px;
+  opacity: 0.85;
+  animation: fadeUp 0.8s ease both;
+}
+
+.thankyou-inner h1 {
+  margin-bottom: 24px;
+  animation: fadeUp 0.8s 0.1s ease both;
+}
+
+.thankyou-msg {
+  font-size: 1.1rem;
+  color: var(--text);
+  line-height: 1.8;
+  margin-bottom: 12px;
+  animation: fadeUp 0.8s 0.2s ease both;
+}
+
+.thankyou-sub {
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.8;
+  animation: fadeUp 0.8s 0.25s ease both;
+}
+
+.thankyou-ctas {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeUp 0.8s 0.35s ease both;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .careers-perks {
+    grid-template-columns: 1fr;
+  }
+
+  .careers-form-wrap {
+    padding: 36px 24px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
