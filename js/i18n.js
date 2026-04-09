@@ -363,15 +363,15 @@
 
       /* Menu – Ramen */
       'ramen.intro': '\u30b9\u30fc\u30d7\u306f\u6bce\u65e5\u65b0\u9bae\u306b\u4f5c\u308a\u307e\u3059\u3002\u4f55\u6642\u9593\u3082\u30b3\u30c8\u30b3\u30c8\u3068\u716e\u8fbc\u3093\u3060\u30b9\u30fc\u30d7\u306f\u3001\u4e00\u676f\u4e00\u676f\u306b\u6df1\u3044\u65e8\u5473\u304c\u8a70\u307e\u3063\u3066\u3044\u307e\u3059\u3002\u304a\u597d\u307f\u306e\u4e00\u676f\u3092\u9078\u3093\u3067\u3001\u901a\u308a\u306e\u55a7\u9a12\u304b\u3089\u96e2\u308c\u305f1\u968e\u3067\u3054\u3086\u3063\u304f\u308a\u304a\u697d\u3057\u307f\u304f\u3060\u3055\u3044\u3002',
-      'ramen.special.name': '\u6708\u898b\u30e9\u30fc\u30e1\u30f3\u30b9\u30da\u30b7\u30e3\u30eb',
+      'ramen.special.name': '月見ラーメンスペシャル',
       'ramen.special.desc': '濃厚な豚骨スープ、麺、スペアリブ、チンゲン菜、メンマ、鳴人巻、味玉、海苔、白ごま、ネギ',
-      'ramen.tonkotsu.name': '\u8c5a\u9aa8\u30e9\u30fc\u30e1\u30f3',
+      'ramen.tonkotsu.name': '豚骨ラーメン',
       'ramen.tonkotsu.desc': '濃厚な豚骨スープ、麺、チャーシュー、チンゲン菜、メンマ、鳴人巻、味玉、海苔、白ごま、ネギ',
-      'ramen.paitan.name': '\u767d\u6e6f\u9d8f\u30e9\u30fc\u30e1\u30f3',
+      'ramen.paitan.name': '白湯鶏ラーメン',
       'ramen.paitan.desc': '鶏白湯、麺、チキンフィレ、チンゲン菜、メンマ、鳴人巻、味玉、ネギ',
-      'ramen.seafood.name': '\u6d77\u9bae\u30e9\u30fc\u30e1\u30f3',
+      'ramen.seafood.name': '海鮮ラーメン',
       'ramen.seafood.desc': '鶏白湯または豚骨スープ、麺、各種海鮮、チンゲン菜、メンマ、鳴人巻、味玉、鰹節、ネギ',
-      'ramen.vegmiso.name': '\u91ce\u83dc\u5473\u564c\u30e9\u30fc\u30e1\u30f3',
+      'ramen.vegmiso.name': '野菜味噌ラーメン',
       'ramen.vegmiso.desc': '味噌ベースのベジタリアンラーメン、麺、チンゲン菜、コーン、ブロッコリー、メンマ、海苔、ネギ',
 
       /* Menu – Sides */
@@ -379,7 +379,7 @@
       'sides.edamame': '\u679d\u8c46',
       'sides.kimchi': '\u30ad\u30e0\u30c1',
       'sides.kimchi.note': '\u97d3\u56fd\u767a\u9175\u91ce\u83dc',
-      'sides.dumplings': '焼き餃子鶏肉',
+      'sides.dumplings': '鶏肉焼き餃子',
       'sides.dumplings.note': '5\u500b\u307e\u305f\u306f10\u500b',
       'sides.gyoza': '野菜餃子',
       'sides.gyoza.note': '5\u500b\u307e\u305f\u306f10\u500b',
