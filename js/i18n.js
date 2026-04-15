@@ -34,6 +34,7 @@
       /* Index – Concept */
       'concept.label': 'Our story',
       'concept.text': 'Located just above the busy streets of Damrak, Tsukimi Ramen offers a quiet escape in the heart of Amsterdam. Step upstairs and enjoy a warm, casual ramen experience away from the crowds.',
+      'concept.text2': 'Every bowl starts with a rich, slow-cooked broth. We keep it simple: fresh noodles, quality ingredients, and the kind of ramen that warms you up after a day in the city.',
 
       /* Index – Reserve CTA */
       'reserve.label': 'Reservations',
@@ -41,6 +42,7 @@
       'reserve.sub': 'Skip the wait and secure your spot upstairs.',
       'reserve.btn': 'Reserve now',
       'reserve.note': "We'll integrate online reservations soon.",
+      'reserve.group': 'Large group? <a href="tel:+31643682172">Call us on 06 43 68 21 72</a> and we\'ll arrange it for you.',
 
       /* Index – Location */
       'location.label': 'Find us',
@@ -221,6 +223,7 @@
       /* Index – Concept */
       'concept.label': 'Ons verhaal',
       'concept.text': 'Net boven de drukke straten van Damrak biedt Tsukimi Ramen een rustige plek in het hart van Amsterdam. Ga naar boven en geniet van een warm, casual ramen-ervaring weg van de drukte.',
+      'concept.text2': 'Elke bowl begint met een rijke, langzaam getrokken bouillon. We houden het simpel: verse noodles, kwaliteitsingrediënten en de soort ramen die je opwarmt na een dag in de stad.',
 
       /* Index – Reserve CTA */
       'reserve.label': 'Reserveringen',
@@ -228,6 +231,7 @@
       'reserve.sub': 'Sla het wachten over en zeker je plek boven.',
       'reserve.btn': 'Nu reserveren',
       'reserve.note': 'Online reserveringen komen binnenkort.',
+      'reserve.group': 'Grote groep? <a href="tel:+31643682172">Bel ons op 06 43 68 21 72</a> en we regelen het voor je.',
 
       /* Index – Location */
       'location.label': 'Vind ons',
@@ -408,6 +412,7 @@
       /* Index – Concept */
       'concept.label': '\u30b9\u30c8\u30fc\u30ea\u30fc',
       'concept.text': '\u30c0\u30e0\u30e9\u30fc\u30af\u306e\u8ce1\u308f\u3044\u901a\u308a\u306e\u3059\u3050\u4e0a\u306b\u4f4d\u7f6e\u3059\u308b\u30c4\u30ad\u30df\u30e9\u30fc\u30e1\u30f3\u306f\u3001\u30a2\u30e0\u30b9\u30c6\u30eb\u30c0\u30e0\u306e\u4e2d\u5fc3\u306b\u9759\u304b\u306a\u3072\u3068\u3068\u304d\u3092\u3054\u63d0\u4f9b\u3057\u307e\u3059\u30021\u968e\u306b\u4e0a\u304c\u308a\u3001\u559d\u9a12\u304b\u3089\u96e2\u308c\u305f\u6e29\u304b\u304f\u30ab\u30b8\u30e5\u30a2\u30eb\u306a\u30e9\u30fc\u30e1\u30f3\u4f53\u9a13\u3092\u3069\u3046\u305e\u3002',
+      'concept.text2': '\u5404\u30dc\u30a6\u30eb\u306f\u3001\u30b3\u30c8\u30b3\u30c8\u30c8\u308d\u706b\u3067\u30b3\u30c8\u30b3\u30c8\u3068\u716e\u8fbc\u3093\u3060\u30b9\u30fc\u30d7\u304b\u3089\u59cb\u307e\u308a\u307e\u3059\u30022\u30b7\u30f3\u30d7\u30eb\u306b\u3053\u3060\u308f\u308a\u307e\u3059\uff1a\u65b0\u9bae\u306a\u9eb5\u3001\u8cea\u306e\u826f\u3044\u5177\u6750\u3001\u305d\u3057\u3066\u90fd\u4f1a\u3067\u306e\u4e00\u65e5\u3092\u7d42\u3048\u305f\u5f8c\u306b\u8eab\u4f53\u3092\u6e29\u3081\u3066\u304f\u308c\u308b\u672c\u683c\u30e9\u30fc\u30e1\u30f3\u3002',
 
       /* Index – Reserve CTA */
       'reserve.label': '\u3054\u4e88\u7d04',
@@ -415,6 +420,7 @@
       'reserve.sub': '\u5f85\u3061\u6642\u9593\u306a\u3057\u30671\u968e\u306e\u304a\u5e2d\u3092\u78ba\u4fdd\u3057\u3066\u304f\u3060\u3055\u3044\u3002',
       'reserve.btn': '\u4eca\u3059\u3050\u4e88\u7d04',
       'reserve.note': '\u30aa\u30f3\u30e9\u30a4\u30f3\u4e88\u7d04\u306f\u8fd1\u65e5\u516c\u958b\u4e88\u5b9a\u3067\u3059\u3002',
+      'reserve.group': '\u5927\u4eba\u6570\u306e\u30b0\u30eb\u30fc\u30d7\u306f\uff1f<a href="tel:+31643682172">06 43 68 21 72</a>\u307e\u3067\u304a\u96fb\u8a71\u304f\u3060\u3055\u3044\u3002',
 
       /* Index – Location */
       'location.label': '\u30a2\u30af\u30bb\u30b9',
