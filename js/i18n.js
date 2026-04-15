@@ -399,15 +399,15 @@
       'hero.hours': '\u6bce\u65e5\u55b6\u696d · 09:00 \u2013 23:00',
 
       /* Index – Menu preview */
-      'menuPreview.label': '1\u968e\u306e\u304a\u5473\u3092\u3069\u3046\u305e',
+      'menuPreview.label': '上階の味をどうぞ',
       'menuPreview.heading': '\u65b0\u9bae\u3067\u30b7\u30f3\u30d7\u30eb\u306a<em>\u30e9\u30fc\u30e1\u30f3\u3002</em>',
-      'card.tonkotsu.name': '\u8c5a\u9aa8\u30e9\u30fc\u30e1\u30f3',
-      'card.tonkotsu.desc': '\u6fc3\u539a\u306a\u8c5a\u9aa8\u30b9\u30fc\u30d7\u3001\u9eba\u3001\u30c1\u30e3\u30fc\u30b7\u30e5\u30fc\u3001\u767d\u83dc\u3001\u534a\u71df\u5375',
-      'card.veg.name': '\u91ce\u83dc\u5473\u564c\u30e9\u30fc\u30e1\u30f3',
-      'card.veg.desc': '\u5473\u564c\u30d9\u30fc\u30b9\u306e\u30d9\u30b8\u30bf\u30ea\u30a2\u30f3\u30e9\u30fc\u30e1\u30f3\u3001\u767d\u83dc\u3001\u30b3\u30fc\u30f3\u3001\u30d6\u30ed\u30c3\u30b3\u30ea\u30fc\u3001\u7b4b\u306e\u5b50\u3001\u6d77\u82d3',
-      'card.special.name': '\u6708\u898b\u30e9\u30fc\u30e1\u30f3\u30b9\u30da\u30b7\u30e3\u30eb',
-      'card.special.desc': '\u6fc3\u539a\u306a\u8c5a\u9aa8\u30b9\u30fc\u30d7\u3001\u30b9\u30da\u30a2\u30ea\u30d6\u3001\u767d\u83dc\u3001\u7b4b\u306e\u5b50\u3001\u306a\u308b\u3068\u3001\u534a\u71df\u5375',
-      'menuPreview.cta': '\u30e9\u30fc\u30e1\u30f3\u30e1\u30cb\u30e5\u30fc \u2192',
+      'card.tonkotsu.name': '豚骨ラーメン',
+      'card.tonkotsu.desc': '濃厚な豚骨スープに、麺、チャーシュー、チンゲン菜、味玉を合わせたラーメン。',
+      'card.veg.name': '野菜味噌ラーメン',
+      'card.veg.desc': '味噌ベースのベジタリアンラーメンに、チンゲン菜、コーン、ブロッコリー、メンマ、海苔を合わせました。',
+      'card.special.name': '月見ラーメンスペシャル',
+      'card.special.desc': '濃厚な豚骨スープに、スペアリブ、チンゲン菜、メンマ、鳴人巻、味玉を合わせたラーメン。',
+      'menuPreview.cta': 'ラーメンメニュー',
 
       /* Index – Concept */
       'concept.label': '\u30b9\u30c8\u30fc\u30ea\u30fc',
